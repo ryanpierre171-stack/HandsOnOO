@@ -1,0 +1,21 @@
+
+package javaapplication3;
+
+import java.util.ArrayList;
+
+public class Listacompras {
+    public static void main(String[] args) {
+        ArrayList<String> produtos = new ArrayList<>();
+        produtos.add("Jojoba");
+        produtos.add("Cupuaçu");
+        produtos.add("Salame");
+        produtos.add("Jatobá");
+        produtos.add("Silicío");
+        System.out.println(produtos);
+        for (String produto : produtos) {
+            System.out.println("- " + produto);
+        }
+
+        System.out.println("Total de produtos: " + produtos.size());
+    }
+}
